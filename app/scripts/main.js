@@ -48,11 +48,21 @@ Toby.addCoach (1)
 //CONSTRUCTOR THREE
 
 function FamilyUnit(firstName) {
-	this.firstName = firstname;
-	this.lastName = Heidenreich;
+	this.firstName = firstName;
+	this.lastName = 'Heidenreich';
 	this.pets = 2;
 	this.nearSighted = true;
-	this.contacts = false; 
-	
+	this.glasses = true;
+	this.contacts = false;
+	this.addOptics = function (){
+		this.contacts = true;
+		this.glasses = false;
+	}		
 }
+
+var Todd = new FamilyUnit ('Todd')
+
+Todd.addOptics()
+
+
 
