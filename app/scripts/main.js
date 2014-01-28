@@ -2,6 +2,7 @@ console.log('\'Allo \'Allo!');
 
 console.log("try these functions...")
 
+
 //CONSTRUCTOR ONE
 
 function SuperHero (name) {
@@ -26,6 +27,7 @@ slobBoy.buildLair ()
 
 slobBoy.damage(shinyGirl)
 
+
 //CONSTRUCTOR TWO
 
 function ThomasTrain(name) {
@@ -44,6 +46,7 @@ var Toby = new	ThomasTrain ('Toby')
 Henry.addCoach(5)
 
 Toby.addCoach (1)
+
 
 //CONSTRUCTOR THREE
 
